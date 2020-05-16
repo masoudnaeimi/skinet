@@ -5487,10 +5487,15 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-ngx-bootstrap@^5.6.1:
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-5.6.1.tgz#c37643247441f9d421bca2cd7d7de1d0445e903f"
-  integrity sha512-8fDs3VaaWgKpupakPKS0QaUc+1E/JMBGJDxUUODjyIkLtFr1A8vH4cjXiV3AfrPvhK27GH0oyTPyKWKcCjEtVg==
+ngx-spinner@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/ngx-spinner/-/ngx-spinner-9.0.2.tgz#18123741cec4f7a29fa63d8d9cb769e58f4b8b85"
+  integrity sha512-Yoed+9389GMxHhyPavBA7S3JY5XF38hIhW+qcJuPcxwOJHkhnr6hZFtuSlp1oXMp3HySQPEskWks1joMtmztMA==
+
+ngx-toastr@^12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-12.0.1.tgz#288c8ef505f1216aa4952cd2a8c6fa7c57a54ccc"
+  integrity sha512-PABtbn2dyHweVSbo/py1W3veXzcmZO7uVItfTW9AykSSeAUju3gOCgauAw89km0aJ9EBcPOieaoI+9tAR7Pfug==
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -8670,6 +8675,13 @@ xmlhttprequest-ssl@~1.5.4:
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.5.tgz#c2876b06168aadc40e57d97e81191ac8f4398b3e"
   integrity sha1-wodrBhaKrcQOV9l+gRkayPQ5iz4=
+
+xng-breadcrumb@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/xng-breadcrumb/-/xng-breadcrumb-5.0.1.tgz#970d74df6de6ef573c50996de5745a82a193fb67"
+  integrity sha512-yi+Fm7AYA/B327xPSLIuRkkwrAZCq65dJPWqvdluxjB0LbzOLLGnU5bL9RsCabVEvSZXMnNGfaoY2wNm3Pt4Pw==
+  dependencies:
+    tslib "^1.9.0"
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
