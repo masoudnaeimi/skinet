@@ -8,15 +8,22 @@
       <p style="font-size: 2em;">{{ product.price | currency }}</p>
       <div class="d-flex justify-contnt-start align-items-center">
         <i
+          (click)="decrementItemQuantity()"
           class="fas fa-minus-circle text-warning mr-2"
           style="cursor: pointer; font-size: 2em;"
         ></i>
-        <span class="font-weight-bold" style="font-size: 1.5em;">2</span>
+        <span class="font-weight-bold" style="font-size: 1.5em;">{{
+          quantity
+        }}</span>
         <i
+          (click)="incrementItemQuantity()"
           class="fas fa-plus-circle text-warning mx-2"
           style="cursor: pointer; font-size: 2em;"
         ></i>
-        <button class="btn btn-outline-secondary btn-lg ml-4">
+        <button
+          class="btn btn-outline-secondary btn-lg ml-4"
+          (click)="addItemToBasket()"
+        >
           Add to Cart
         </button>
       </div>

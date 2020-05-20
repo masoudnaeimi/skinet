@@ -14,9 +14,9 @@
     <a class="p-2" routerLink="/test-error">CONTACT</a>
   </nav>
   <div class="d-flex align-items-center">
-    <a class="position-relative mr-4">
+    <a routerLink="/basket" class="position-relative mr-4">
       <i class="fas fa-shopping-cart fa-2x text-dark"></i>
-      <div class="cart-no">6</div>
+      <div class="cart-no" *ngIf="(basket$ | async) as basket">{{basket.items.length}}</div>
     </a>
     <a class="btn btn-outline-secondary mr-2">Login</a>
     <a class="btn btn-outline-secondary mr-3">Sign up</a>
